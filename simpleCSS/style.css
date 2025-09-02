@@ -1,0 +1,64 @@
+body{
+    width: 100dvw;
+    height: 88.8dvh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+header{
+    height: 10%;
+    /* to center a div */
+    
+    /* Method 1 */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* Method 2 */
+    /* display: grid;
+    place-items: center; */
+
+    /* Method 3 */
+    /* position: relative; */
+
+    /* Method 4 */
+    /* margin: 0 auto;
+    text-align: center; */
+
+    /* Method 5  */
+    line-height: 10%;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 1.6rem;
+
+    /* Method 3 */
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+}
+
+aside, main{
+    background-color: black;
+    border: 1px solid white;
+}
+
+aside{
+    width: 20%;
+}
+
+main{
+    flex: 1;
+}
+
