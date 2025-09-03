@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+body{
+   background-image: linear-gradient(35deg, #654ea3, #eaafc8);
+   width: 100dvw;
+   height: 100dvh;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 3px #654ea3, 4px 4px 5px #eaafc8;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.507);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px #654ea3;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    gap: 1rem;
+    position: relative;
+}
+
+form h3{
+    position: absolute;
+    top: 0;
+    margin: 1rem;
+    font-size: 1.7rem;
+    color: #654ea3;
+    text-shadow: 1px 1px 3px #654ea3;
+}
+
+form div input{
+    width: 100%;
+    border-radius: 7px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: .7rem;
+    margin-bottom: 1.5rem;  
+    transform: scale(1.3rem);
+    border-bottom:2px solid #654ea3;
+}
+form div {
+    background-color: #eaafc86e;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+form div input::placeholder{
+    padding-left: 8px;
+    color: #654ea3;
+    font-weight: 700;
+
+}
+ 
+form div button{
+   width: 50%;
+   padding: .5rem;
+   border-radius: 7px;
+   border: transparent;
+   background-color: #654ea3;
+   color: #fff;
+   font-weight: 900;
+}
+ 
+form div button:hover{
+    background-color: #fff;
+    color: #654ea3;
+}
